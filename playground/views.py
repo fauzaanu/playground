@@ -12,7 +12,7 @@ def index(request):
         for topping in pizza.topping_set.all():
             print(topping.name)
 
-    return HttpResponse(pizzas.)
+    return HttpResponse(pizzas)
 
 
 def create_100_pizzas():
